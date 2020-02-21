@@ -1,4 +1,4 @@
-import { vuexfireMutations } from 'vuefire'
+import { vuexfireMutations } from 'vuexfire'
 // vuexfireの機能を読み込んで使えるようにする
 
 export const mutations = {
