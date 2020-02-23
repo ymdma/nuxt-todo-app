@@ -34,7 +34,7 @@ export const actions = {
   }),
 
   // チェックボックス操作時のアクション todoの完了・未完了を管理するための機能
-  toggle: firestoreAction((context, todo)=> {
+  toggle: firestoreAction((context, todo) => {
     todosRef.doc(todo.id).update({
       done: !todo.done // 現在の値を反転して使用したい
     })

@@ -9,6 +9,7 @@
 
   export default {
     created: function() {
+      // まずは、todos.jsのinitを呼び出して初期化する
       this.$store.dispatch('todos/init') //initの呼び出し
     }
   }
@@ -16,8 +17,7 @@
 
 <style>
 
-</style>script
+</style>
 
 
 
-// まずは、todos.jsのinitを呼び出して初期化する
